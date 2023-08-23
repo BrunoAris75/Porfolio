@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> My Portfolio</title>
+    <meta charset='utf-8'/>
+    <link rel='stylesheet' href='css.css'/>
+    
+    </head>
+    <body>
+        <header>
+        <h1> My portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href='#home' class='no-inderline'>Home</a></li>
+                <li><a href='#projet' class='no-inderline'>Projet</a></li>
+                <li><a href='#about' class='no-inderline'>About</a></li>
+                <li><a href='#contact' class='no-inderline'>Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <section id='home'>
+                <h2>Welcome to my portfolio</h2>
+                <p>In my portfolio, you will learn about me as a professional.
+                I am a resourceful induvidual
+                who knows how to optimize the means
+                at my disposal to successfully achieve
+                my goals.</p>
+                <img src='IMG.jpg' alt='Image' id='IMG-image'>
+            </section>
+                
+            <section id='about'>
+                <h2>About me</h2>
+                <p>My name is Bruno and I study at university Ankatso.My passion for technology
+                and design has led me to specialize in front-end developement, using languages
+                such as HTML,CSS,and JavaScript.</p>
+                <p>I am constantly keeping up with the latest trends in web developement and
+                I am ready to take on new challenges to continuously improve my skills.
+                Apart from web developement, I enjoy music,play game, and outdoor activities.</p>
+                <img src='br.jpg' alt='Me' id='br-image'> 
+            </section>
+         
+            <section id='projet'>
+            <h2>My projet</h2>
+            <p>My approach is focused on collaboration and client satisfaction.
+            I am always seeking new challenges and opportunities further  develop
+            my skills and creativity.And feel free to contact me if you'd like 
+            to discus potential future collaborations.</p>
+            <img src='collaboration.jpg' alt='Projet' id='collaboration-image'>
+            </section>
+            
+            <section id='contact'>
+                <h2>Contact</h2>
+                <p>Contact-me:</p>
+                <form action='https://formspree.io/arisbruno75@gmail.com' method='post'>
+                <div>
+                    <label for='name'>Name:</label>
+                    <input type='text' id='nom' name='name' placeholder='Your name' required>
+                </div>
+                <div>
+                    <label for='email'>Email:</label>
+                    <input type='email' id='email'name='_replyto' placeholder='Your email' required>
+                </div>
+                <div>
+                    <label for='message'>Message:</label>
+                    <textarea id='message' name='message' placeholder='Your message' required></textarea>
+                </div>
+                <button type='submit'>Send</button>
+                </form>
+            </section>
+            <footer>
+                <p>&copy;2023 My Portfolio.All rights reserved.</p>
+            </footer>
+        </main>   
+    </body>
+</html>
